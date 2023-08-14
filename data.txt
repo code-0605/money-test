@@ -1,0 +1,135 @@
+exchange-offices
+exchange-office
+  id = 1
+  name = Exchanger 1
+  country = UKR
+  exchanges
+    exchange
+      from = EUR
+      to = USD
+      ask = 110
+      date = 2023-04-24 22:55:33
+    exchange
+      from = USD
+      to = UAH
+      ask = 400
+      date = 2023-04-24 22:55:33
+  rates
+    rate
+      from = EUR
+      to = USD
+      in = 1.1
+      out = 1
+      reserve = 120000
+      date = 2023-04-24 22:55:33
+    rate
+      from = USD
+      to = UAH
+      in = 1
+      out = 40
+      reserve = 150000
+      date = 2023-04-24 22:55:33
+exchange-office
+  id = 2
+  name = Exchanger 2
+  country = UKR
+  rates
+    rate
+      from = AUD
+      to = CAD
+      in = 1
+      out = 2
+      reserve = 150000
+      date = 2023-04-24 22:55:33
+countries
+country
+  code = UKR
+  name = Ukraine
+country
+  code = USA
+  name = United States
+country
+  code = CAD
+  name = Canada
+country
+  code = AUD
+  name = Australia
+country
+  code = EUR
+  name = European Union
+exchange-offices
+exchange-office
+  id = 3
+  name = US Exchange
+  country = USA
+  exchanges
+    exchange
+      from = EUR
+      to = USD
+      ask = 130
+      date = 2023-04-10 18:00:00
+    exchange
+      from = CAD
+      to = USD
+      ask = 100
+      date = 2023-04-10 19:00:00
+  rates
+    rate
+      from = EUR
+      to = USD
+      in = 1.3
+      out = 1.1
+      reserve = 200000
+      date = 2023-04-10 18:00:00
+    rate
+      from = CAD
+      to = USD
+      in = 1
+      out = 0.8
+      reserve = 180000
+      date = 2023-04-10 19:00:00
+
+exchange-office
+  id = 4
+  name = Canada Exchange
+  country = CAD
+  exchanges
+    exchange
+      from = USD
+      to = CAD
+      ask = 120
+      date = 2023-04-11 17:00:00
+  rates
+    rate
+      from = USD
+      to = CAD
+      in = 1.2
+      out = 0.9
+      reserve = 160000
+      date = 2023-04-11 17:00:00
+    rate
+      from = AUD
+      to = CAD
+      in = 1.5
+      out = 1.2
+      reserve = 140000
+      date = 2023-04-11 17:30:00
+
+exchange-office
+  id = 5
+  name = Australia Exchange
+  country = AUD
+  exchanges
+    exchange
+      from = USD
+      to = AUD
+      ask = 140
+      date = 2023-04-12 20:00:00
+  rates
+    rate
+      from = USD
+      to = AUD
+      in = 1.4
+      out = 1
+      reserve = 220000
+      date = 2023-04-12 20:00:00
